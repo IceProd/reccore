@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/IceProd/reccore.png?label=ready&title=Ready)](https://waffle.io/IceProd/reccore)
 [![Coverage Status](https://coveralls.io/repos/IceProd/reccore/badge.svg?branch=master&service=github)](https://coveralls.io/github/IceProd/reccore?branch=master)
 [![Build Status](https://travis-ci.org/IceProd/reccore.svg?branch=master)](https://travis-ci.org/IceProd/reccore)
 
