@@ -1,5 +1,6 @@
-[![Coverage Status](https://coveralls.io/repos/IceProd/reccore/badge.svg?branch=master&service=github)](https://coveralls.io/github/IceProd/reccore?branch=master)
+[![Dependency Status](https://gemnasium.com/IceProd/reccore.svg)](https://gemnasium.com/IceProd/reccore)
 [![Build Status](https://travis-ci.org/IceProd/reccore.svg?branch=master)](https://travis-ci.org/IceProd/reccore)
+[![security](https://hakiri.io/github/IceProd/reccore/master.svg)](https://hakiri.io/github/IceProd/reccore/master)
 
 # Reccore
 
