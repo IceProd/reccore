@@ -1,4 +1,19 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in reccore.gemspec
+gem 'bundler'
+gem 'rake'
+gem 'nokogiri'
+
+group :development do
+  gem 'pry'
+  gem 'awesome_print'
+  gem 'json'
+end
+
+group :test do
+  gem 'coveralls'
+  gem 'rspec'
+end
+
+# Specify your gem's dependencies in revepast.gemspec
 gemspec
