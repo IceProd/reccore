@@ -21,7 +21,6 @@ module Reccore
       parse_regionlimit(options[:regionlimit]) unless options[:regionlimit].nil?
       @args += 'usesystem=30000142&' if options[:regionlimit].nil?
       @args += "usesystem=#{options[:usesystem]}&" unless options[:usesystem].nil?
-      p @args.chomp('&')
       xml = Nokogiri::XML(open(Marketstat.endpoint + @args.chomp('&')))
       update(xml)
       Reccore.cache.cleanup!
