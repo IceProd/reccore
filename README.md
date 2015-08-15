@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/IceProd/reccore.png?label=ready&title=Ready)](https://waffle.io/IceProd/reccore)
 [![Dependency Status](https://gemnasium.com/IceProd/reccore.svg)](https://gemnasium.com/IceProd/reccore)
 [![Build Status](https://travis-ci.org/IceProd/reccore.svg?branch=master)](https://travis-ci.org/IceProd/reccore)
 [![security](https://hakiri.io/github/IceProd/reccore/master.svg)](https://hakiri.io/github/IceProd/reccore/master)
