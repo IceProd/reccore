@@ -1,5 +1,5 @@
 bundler_args: "--without development"
-# cache: bundler
+cache: bundler
 gemfile:
 - Gemfile
 language: ruby
