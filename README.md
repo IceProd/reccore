@@ -1,3 +1,6 @@
+[![Coverage Status](https://coveralls.io/repos/IceProd/reccore/badge.svg?branch=master&service=github)](https://coveralls.io/github/IceProd/reccore?branch=master)
+[![Build Status](https://travis-ci.org/IceProd/reccore.svg?branch=master)](https://travis-ci.org/IceProd/reccore)
+
 # Reccore
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/reccore`. To experiment with that code, run `bin/console` for an interactive prompt.

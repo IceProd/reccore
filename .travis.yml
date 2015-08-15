@@ -1,4 +1,15 @@
+bundler_args: "--without development"
+cache: bundler
+gemfile:
+- Gemfile
 language: ruby
 rvm:
-  - 2.2.2
-before_install: gem install bundler -v 1.10.6
+- 2.2.2
+deploy:
+  provider: rubygems
+  api_key:
+    secure: AogCDSw8k8KPcYKFhklrPlb9fw7pH6y1UUr4KUhSb2uN/ckbtB13uMHErxfUxYppar7lfXVmKHdK3rRrTya9lXJVfznzh5alYNzs6At/K38AxDjEzgGssIffepznS3NBnPiQFgUFysuNUisRrK/hVN72z5GqsbCtXhv40VjJdyygl0iEeOr2ggQDkGaSvEXTTg7SVbga0Uodjl6hTX/i2SNipJYwHRfEn9QmwEPcPHPy3KReh/AlpIZ7XBtp/uiEp7qPwuSMHvuJrFElUFifj8oR8k6f0MfDptB91rwKodXgCjvjREWAoYyBxwYHRXVRgvLn7Bqr7eP4UVfi4Iiggj4sxnwocVvICrmRT3qExg/itOKcgVt1IM0gLD5mFVP4FANvvqf+hg1OMuOwyqvpuTWPy2L3IHntNHA2C3RFG5BgckBIBtnlngkrixduhDDtXRciHGBSHICAK04nS3sU4FhYYmL/BJk+y880rfJ0ZKJDRTL3qNN8mTqEYsXWwXr8eCuS7k23Thv/80ddYWwY3HcgcMvBzt3uXfRuvO5/vnZRXUmMFFHv1nVUDiM8YFBpOt4cimFtEcmv3dut5cPj9ur9IDiKjfYX0pBcGsDYjBlCGtqRNF+BjTXNHbY2wjkM4f5sWljjhQu8J8CAi47gqlAtCNevZU2o6AuC3OTbMR4=
+  gem: reccore
+  on:
+    tags: true
+    repo: IceProd/reccore
